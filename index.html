@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Problems</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="problem">
+            <h2>Machine Problem 2: SearchWord</h2>
+            <p class="description">Check if a word exists in the given sentence. Display "Found" or "Not Found".</p>
+            
+            <input type="text" id="searchSentence" placeholder="Sentence">
+            <input type="text" id="searchWord" placeholder="Word to search">
+            <button onclick="handleSearchWord()">Search</button>
+            
+            <div id="searchResult" class="result"></div>
+        </div>
+
+        <div class="problem">
+            <h2>Machine Problem 3: ReplaceWord</h2>
+            <p class="description">Replace the first occurrence of a word in a sentence.</p>
+            
+            <input type="text" id="replaceInput" placeholder="Sentence">
+            <input type="text" id="oldWord" placeholder="Word to replace">
+            <input type="text" id="newWord" placeholder="New word">
+            <button onclick="handleReplaceWord()">Replace</button>
+            
+            <div id="replaceResult" class="result"></div>
+        </div>
+
+        <footer>
+            © Chlyde Christian Espinosa
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
